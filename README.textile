@@ -1,0 +1,16 @@
+h1. HTTP2XMPP
+
+Based on Pedro Melo's "ideia":http://github.com/melo/codebits/tree/master/2008/xmpp-hands-on/bots/http2xmpp, I decided to rewrite his code with readable Ruby :P
+
+The implementation is still incomplete, since I currently don't support sending raw XML in the middle of a message. I think XMPP4R::Simple currently not support this, so I'm planing to rewrite the code directly with XMPP4R.
+
+h2. Dependencies
+
+All dependencies can be installed with a simple @sudo gem install dep@:
+
+* xmpp4r-simple
+* xmpp4r
+
+h2. License
+
+Please see the included @LICENSE@ file for details about redistributing the code.
